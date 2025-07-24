@@ -1,10 +1,9 @@
 ## Getting Started
 
-Turn your Android phone into a pocket Python development machine using Termux + Neovim. This guide is written for complete beginners, walking you step-by-step from installing Termux to writing and running Python code with LSP (language server) support, helpful keybindings, and optional customizations.
-
+urn your Android phone into a pocket Python development machine using `Termux + Neovim`. This guide is written for complete beginners, walking you step by step from  installing Termux to writing and running Python code with LSP (language server) support, helpful keybindings, and optional customizations.
 ## Why This Repo?
 
-I wasted a whole week thinking I needed a laptop to learn Python. Then I discovered Termux – a Linux terminal on Android – and built my own Python IDE with Neovim. This repo is my complete beginner-friendly setup so you can do the same without the struggle.
+ I wasted a whole week thinking I needed a laptop to learn Python. Then I discovered Termux  a Linux terminal on Android and built my own Python IDE with Neovim. This repo is my complete beginner-friendly setup so you can do the same without the struggle.
 
 ### Prerequisites
 
@@ -16,35 +15,38 @@ I wasted a whole week thinking I needed a laptop to learn Python. Then I discove
 
 (No root or advanced Linux skills required!)
 
-### Quick Start 
+## Quick Start 
 
 1. Install Termux (from F-Droid)
 
 Recommended source: F-Droid (latest & maintained).
 Install Termux app.
 
-Link: https://f-droid.org/en/packages/com.termux/
-This script will:
 
-Optional companion: Termux**:API** if you want device integrations.
+Link: https://f-droid.org/en/packages/com.termux/    
+Optional companion: `Termux API` if you want device integrations.
 
 * Open Termux
 
 2. Update Termux & Install Git
 
-``` pkg update -y && pkg upgrade -y
+``` 
+    pkg update -y && pkg upgrade -y
     pkg install -y git 
 ```
 
 3. Clone This Repo
 
-``` git clone https://github.com/DineshMSDian/termux-python-IDE.git
+``` 
+    git clone https://github.com/DineshMSDian/termux-python-IDE.git
+    
     cd termux-python-ide/termux 
 ```
 
 4. Run the Setup Script
 
-```bash bootstrap.sh 
+```sh 
+   bash bootstrap.sh 
 ```
 
 * This script will:
@@ -57,16 +59,19 @@ Optional companion: Termux**:API** if you want device integrations.
 
 5. Launch Neovim & Test
 
-``` nvim examples/hello.py 
+```sh 
+   nvim examples/hello.py 
 ```
 
 Run inside Neovim with: 
-``` :w | !python % 
+```sh 
+   :w | !python % 
 ```
 
 Or from shell:
 
-``` python examples/hello.py 
+```sh 
+   python examples/hello.py 
 ```
 
 If you see output and no import errors, you're good!
@@ -94,3 +99,7 @@ If you see output and no import errors, you're good!
 * On-the-fly linting and type checking.
 
 * Quick navigation to definitions and references
+
+## Contributing
+
+ New to coding? Share your keyboard mapping ideas, bug reports, or plugin suggestions by opening an issue.
