@@ -100,6 +100,28 @@ If you see output and no import errors, you're good!
 
 * Quick navigation to definitions and references
 
+## Optional Features & customizations
+
+### 1. Zsh & Oh-My-Zsh
+
+Want a colorful and smart shell?
+
+```
+pkg install -y zsh
+chsh -s zsh
+```
+
+Then install Oh-My-Zsh with:
+
+```sh 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### 2. Themes & Icons
+
+Use plugins like `lualine.nvim` or `tokyonight.nvim` (already configured in plugins.lua).
+
+`Will update more`
 ## Contributing
 
  New to coding? Share your keyboard mapping ideas, bug reports, or plugin suggestions by opening an issue.
