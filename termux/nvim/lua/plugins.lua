@@ -1,0 +1,15 @@
+return {
+  { 'neovim/nvim-lspconfig' },
+  { 'williamboman/mason.nvim', build = ':MasonUpdate' },
+  { 'williamboman/mason-lspconfig.nvim' },
+  { 'hrsh7th/nvim-cmp' },
+  { 'hrsh7th/cmp-nvim-lsp' },
+  { 'L3MON4D3/LuaSnip' },
+  { 'rafamadriz/friendly-snippets' },
+  { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
+  { 'nvim-lua/plenary.nvim' },
+  { 'nvim-telescope/telescope.nvim', branch = '0.1.x' },
+  { 'jose-elias-alvarez/null-ls.nvim' },
+  { 'rcarriga/nvim-notify' },
+  { 'folke/which-key.nvim' },
+}

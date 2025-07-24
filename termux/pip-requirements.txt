@@ -1,0 +1,10 @@
+pynvim
+black
+ruff
+virtualenv
+pipx
+python-lsp-server[all]
+rope
+debugpy
+ipython
+jedi
